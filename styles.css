@@ -1,60 +1,68 @@
 * {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px dotted red; */
 }
 
+html {
+    box-sizing: border-box;
+    background-color: rgb(250, 244, 230);
+    line-height: 1.5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
 h1 {
-    color: rgb(128, 63, 20);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-body {
-    background-color: rgb(255, 231, 203);
-    color: white;
-}
-
-img {
-    border: 10px solid rgb(224, 125, 67);
+    text-align: center;
+    margin-top: 10px;
 }
 
 h2 {
-    color: rgb(56, 34, 5);
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.recipe-card {
+    width: 600px;
+    margin: 50px auto;
+    background-color: rgb(250, 238, 212);
+    color: rgb(247, 67, 13);
+    border: 2px solid red;
+    /* padding: 15px 15px; */
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 5px 0px;
+    padding: 10px 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(124, 35, 0);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(163, 46, 46);
+}
+
+.footer {
+    background-color: rgb(255, 232, 182);
+    padding: 10px 25px;
 }
 
 .index-list {
-    list-style: none;
-    padding-left: 0px;
-}
-
-.description {
-    background-color: rgb(252, 196, 163);
-}
-
-.ingredients {
-    background-color: rgb(255, 231, 203);
-}
-
-.steps {
-    background-color: rgb(252, 196, 163);
-}
-
-.footer, 
-.footer a {
-    background-color: brown;
-    color: rgb(252, 215, 215);
-    text-decoration: none;
-}
-
-div {
-    border-bottom: 15px;
-}
-
-.ingredients li {
-    color: red;
-}
-
-ol li {
-    color: blue;
+    margin: 10px auto;
+    padding: 15px 40px;
+    width: 400px;
 }
