@@ -1,6 +1,6 @@
 # odin-recipes
 
-This is the first project of The Odin Project curriculum. It is a basic recipe website using only html. While completing it, I tried to put in practice and review what has been taught so far in the curriculum. 
+This is the first project of The Odin Project curriculum. It was a basic recipe website using only html. While completing it, I tried to put in practice and review what has been taught so far in the curriculum. After completing the CSS Foundations part of the curriculum, the task was to add some style to it.
 
 ## Practiced skills
 * Use linux as OS
@@ -13,6 +13,9 @@ This is the first project of The Odin Project curriculum. It is a basic recipe w
   - Add absolute and relative links
   - Use target="_blank" and rel="noopener noreferrer"
   - Add images with the alt attribute to enhance accessibility
+* Add Basic CSS
+* Change the display property
+* Change box-sizing property to content-box
 
 ## About The Odin Project
 
